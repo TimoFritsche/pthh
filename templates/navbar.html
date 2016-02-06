@@ -1,0 +1,37 @@
+{% load staticfiles %}
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" 
+       data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar middle"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+        <a class="navbar-brand" href="www.producttank-hh.com">
+            <img alt="ProductTank Hamburg" src="{% static 'img/ProductTank_logo_hamburg2.png' %}" class='img-responsive' id="logo" >
+        </a>
+        <div class='collapse navbar-collapse navbar-right' id="navbar-collapse">  
+            <ul class='nav navbar-nav'>
+              <li><a href="#community">Was ist ProductTank?</a></li>
+              <li><a href="#contact">Kontakt</a></li>
+              <!-- <li><a href="#">Vergangene Events</a></li> -->
+          </ul>
+
+          <div class='share-icons navbar-right'> 
+              <p class="navbar-text">Keinen ProductTank mehr verpassen:</p>
+              <div id='icons'>
+                <a href="https://twitter.com/producttankhh"><img alt="Twitter" src="{% static 'img/Twitter-outline.png' %}" class="share-icon"></a>
+              <!-- <p id='share'>Twitter</p> -->
+              </div>
+              <div id='icons'>
+                <a href="https://www.xing.com/communities/groups/product-tank-hamburg-1006005"><img alt="XING" src="{% static 'img/XING-outline.png' %}" class="share-icon"></a>
+                <!-- <p id='share'>XING</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</nav>

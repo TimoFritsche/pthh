@@ -1,0 +1,286 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	height: 100%;
+}
+
+.container-fluid{
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+
+.row-fluid {
+	/*height: 100%;*/
+	display: block; 
+	/*display:table-cell;*/ 
+	vertical-align: middle;
+}
+
+/*Nav Bar*/
+nav.navbar.navbar-default {
+	margin-bottom: 0px;
+	border-radius: 0px;
+	background-color: white;
+	border-color: white;
+}
+
+.navbar-header {
+	float: none;
+}
+
+a.navbar-brand #logo.img-responsive  {
+	max-height: 25px;
+	max-width:  86,03px;
+}
+
+ul.nav.navbar-nav  {
+	margin-right: 80px;
+}
+
+.navbar-nav li {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.navbar li a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+p.navbar-text {
+	font-size: 12px;
+}
+
+.share-icons div#icons {
+	display: inline;
+}
+
+img.share-icon {
+	display: inline;
+	margin: 15px 10px 5px 10px;
+	max-height: 20px;
+}
+
+p#share {
+	font-family: Open Sans;
+	font-size: 8px;
+	font-weight: 300;
+}
+
+span.icon-bar.middle{
+	height: 3px;
+}
+
+/*Stage*/
+img.img-responsive#main-logo {
+    float: none;
+    margin: 100px auto 50px auto;
+    width: 350px;
+    max-width: 100%; 
+	height: auto; 
+	display: block;
+}
+
+h1 {
+	font-family: Open Sans;
+	margin: 50px auto auto auto;
+	font-weight: 400;
+	font-size: 54px;
+	color: white;
+	text-align: center;
+}
+
+h4 {
+ 	font-family: Open Sans;
+	font-weight: 200;
+	font-size: 28px;
+	color: white;
+	text-align: left;
+	padding-bottom: 10px;
+    border-bottom: solid thin white;
+    position: absolute;
+    bottom: 75%;
+    margin-bottom: 25px;
+}
+
+p {
+ 	font-family: Open Sans;
+	font-weight: 200;
+	font-size: 24px;
+	color: white;
+	text-align: left;
+}
+
+div#next {
+
+}
+
+span#nextPT {
+	color: #00A3DA;
+}
+
+p#date {
+	font-size: 30px;
+}
+
+p#address{
+	font-size: 16px;
+	display: inline;
+}
+
+/*p#main-cta {
+	display: inline;
+	float: right;
+	vertical-align: bottom;
+}
+
+a.btn.btn-default.btn-lg.btn-primary {
+	background-color: rgba(0,0,0,0);
+  	border: 3px solid #00A3DA;
+}
+
+a.btn.btn-default.btn-lg.btn-primary:hover {
+	background-color: #00A3DA;
+}  */
+
+div.col-lg-6.col-lg-offset-2 {
+	margin-bottom: 50px;
+}
+
+
+/*Community Section*/
+.community h3 {
+	color: #00A3DA;
+	font-family: Open Sans;
+	font-size: 32px;
+}
+
+.community p {
+	color: #343434;
+	font-family: Open Sans;
+	font-size: 14px;
+}
+
+.community div.row.top {
+	margin-top: 100px;
+}
+
+.community div.row.chapter {
+	margin-top: 100px;
+}
+
+.community p#count {
+	color: #00A3DA;
+	font-family: Open Sans;
+	font-weight: 500;
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.community p#text {
+	color: #343434;
+	font-family: Open Sans;
+	font-size: 24px;
+	text-align: center;
+}
+
+div#second-column.col-lg-6 {
+	position: relative;
+}
+
+div.col-lg-6.city-counter {
+	display: inline;
+	float: left;
+}
+
+div.col-lg-6.community-counter {
+	display: inline;
+	float: right;
+}
+
+.community img.img-responsive.img-circle {
+	max-width: 100px; 
+	max-height: 100px;
+	margin-right: auto;
+  	margin-left: auto;
+  	margin-bottom: 10px;
+}
+
+div.row.chapter-speaker {
+	margin-top: 20px;
+}
+
+p.speaker {
+	text-align: center;
+	font-size: 13px;
+}
+
+/*Contact section*/
+.contact h2 {
+	font-family: Open Sans;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	margin-bottom: 90px;
+	margin-top: 150px;
+}
+
+.contact img.img-responsive.img-circle {
+	max-width: 150px; 
+	max-height: 150px;
+	margin-right: auto;
+  	margin-left: auto;
+}
+
+p.organiser {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 16px;
+	font-family: Open Sans;
+}
+
+.organiser span {
+	text-align: center;
+	font-size: 11px;
+}
+
+.contact div.col-lg-3 {
+	text-align: center;
+}
+
+.contact img.img-responsive.contact-logos {
+	display: inline-block;
+	margin: 20px auto 20px auto;
+	position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+
+}
+
+
+/*Footer*/
+div.row.footer {
+	background-color: rgba(0, 0, 0, 0);
+  	bottom: 0px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	margin-top: 40px;
+}
+
+div.container.footer {
+	padding:20px;
+}
+
+footer p {
+	font-size: 12px;
+	font-family: Open Sans;
+	color: white;
+	text-align: center;
+}

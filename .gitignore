@@ -1,6 +1,10 @@
 .DS_Store
 pthh/settings/local.py
 
+bin/
+include/
+local/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
